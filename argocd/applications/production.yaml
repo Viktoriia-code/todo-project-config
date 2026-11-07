@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/Viktoriia-code/Kubernetes-MOOC-2026.git
+    repoURL: https://github.com/Viktoriia-code/todo-project-config.git
     path: environments/overlays/production
-    targetRevision: ">=4.9.0"
+    targetRevision: main
   destination:
     server: https://kubernetes.default.svc
     namespace: production

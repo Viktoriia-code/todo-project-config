@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/Viktoriia-code/Kubernetes-MOOC-2026.git
+    repoURL: https://github.com/Viktoriia-code/todo-project-config.git
     path: environments/overlays/staging
-    targetRevision: refs/heads/main
+    targetRevision: main
   destination:
     server: https://kubernetes.default.svc
     namespace: staging
